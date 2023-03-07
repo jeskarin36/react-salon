@@ -1,0 +1,149 @@
+.App__navbar{
+    width: 100%;
+    height: 10vh;
+    background: rgb(159, 74, 43);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.App__navbar-menu{
+    width: 30%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.App__navbar-menu  a{
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--color-y);
+}
+
+.App__navbar-logo{
+    width: 20%;
+    height: 100%;
+}
+
+.App__navbar-logo h3{
+    font-size: 23px;
+    line-height: 27px;
+    font-family: var(--font-spe);
+    font-weight: 700;
+    color: var(--color-y);
+}
+
+.App__navbar-boton{
+    width: 30%;
+    height: 100%;
+    justify-content: flex-end;
+    padding-right:40px;
+}
+
+.App__navbar-boton button{
+    width: 50%;
+    height: 65%;
+    background: var(--color-y);
+    border-radius: 50px;
+    border: none;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+
+
+.gpt3__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+    padding-right: 2em;
+  }
+  
+  .gpt3__navbar-menu svg{
+    cursor: pointer;
+  }
+  
+  .gpt3__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem ;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
+  }
+  
+  .gpt3__navbar-menu_container p{
+    margin: 1rem 0;
+  }
+  
+  .gpt3__navbar-menu_container-links-sign{
+    display: none;
+  }
+
+
+
+@media screen and (max-width:1081px) {
+    .App__navbar-menu{
+        flex-wrap: wrap;
+      width: 45%;
+    }
+
+    .App__navbar-boton button{
+        width: 70%;
+    }
+
+    .App__navbar-logo{
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:887px) {
+ 
+  .App__navbar-menu{
+    display: none;
+  }
+
+  .App__navbar-boton button{
+    display: none;
+    
+  }
+
+  .gpt3__navbar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width:581px){
+  .App__navbar-logo{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 1em;
+    }
+
+    .App__navbar-boton{
+      width: 0;
+      padding: 0;
+    
+    }
+}

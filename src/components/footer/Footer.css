@@ -1,0 +1,267 @@
+.App__footer{
+    width: 100%;
+    height: 80vh;
+    background: #e9ee63;
+}
+
+
+.App__footer-top{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.content{
+    width: 100%;
+    overflow: hidden;
+}
+
+.content h3{
+    font-size: 137px;
+    font-family: var(--font-spe);
+    font-weight: 700;
+    color:  black;
+   
+  
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);	
+    transform:translateX(100%);
+    /* Apply animation to this element */	
+    -moz-animation: example1 25s linear infinite;
+    -webkit-animation: example1 25s linear infinite;
+    animation: example1 25s linear infinite;
+}
+
+.App__footer-top button{
+    width: 20%;
+    height: 10%;
+    background: black;
+    color:#e9ee63;
+    border-radius: 50px;
+    border: none;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.App__footer-botton{
+    width: 100%;
+    height: 40%;
+    display: flex;
+   
+}
+
+.App__footer-botton h3{
+    font-family: var(--font-mono);
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.App__footer-botton div{
+    width: 35%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.App__footer-botton div p{
+
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li a{
+    text-decoration: underline;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+
+.App__footer-botton div div{
+  width: 80%;
+  height: 5.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1132px) {
+    
+    .App__footer{
+      height: 100vh;
+
+    }
+
+    .App__footer-top{
+        gap: 2em;
+    }
+}
+
+
+
+@media screen and (max-width:1132px) {
+    .content h3{
+        font-size: 110px;
+    }
+    .App__footer-top button{
+        width: 35%;
+      }
+}
+
+
+
+@media screen and (max-width:909px) {
+    .content h3{
+        font-size: 80px;
+    }
+
+  
+}
+
+@media screen and (max-width:767px) {
+    .App__footer{
+        height: 150vh;
+   
+    }
+    .App__footer-top{
+        
+        height: 35%;
+    }
+    .App__footer-botton{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        height: 65%;
+    }
+
+    .App__footer-botton > div{
+      
+        width: 60%;
+        height: 25%;
+    }
+
+    .App__footer-botton > div:first-child{
+        height: 55%;
+    }
+
+}
+
+@media screen and (max-width:661px) {
+    .content h3{
+        font-size: 70px;
+    }
+
+    
+}
+
+@media screen and (max-width:583px) {
+    .content h3{
+        font-size: 60px;
+    }
+
+    .App__footer-top button{
+        width: 45%;
+      }
+      
+      
+}
+
+@media screen and (max-width:496px) {
+    .content h3{
+        font-size: 50px;
+    }
+
+    .App__footer-top{
+      
+        height: 30%;
+    }
+    .App__footer-botton{
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .content h3{
+        font-size: 30px;
+    }
+    .App__footer-top{
+     
+        height: 20%;
+    }
+    .App__footer-botton{
+        height: 80%;
+    }
+
+    .App__footer-top button{
+        width: 60%;
+        height: 2em;
+        font-size: 13px;
+      }
+
+      .App__footer-botton > div{
+        width: 90%;
+      }
+}
+
+
+
+
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes example1 {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes example1 {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }

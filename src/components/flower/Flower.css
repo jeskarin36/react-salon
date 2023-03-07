@@ -1,0 +1,29 @@
+
+.flower{
+    width: 280px;
+    height: 100px;
+    border-radius:50px;
+    background: hotpink;
+    display: flex;
+  }
+  
+  .flower::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background: hotpink;
+    border-radius: 50px;
+    transform: rotate(60deg);
+  }
+  
+  .flower::after{
+    content: "";
+    display: block;
+    width: 280px;
+    height: 100px;
+    background: hotpink;
+    border-radius: 50px;
+    transform: rotate(-60deg);
+  }

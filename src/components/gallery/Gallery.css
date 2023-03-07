@@ -1,0 +1,36 @@
+.App__Gallery{
+    width: 100%;
+    height: 47vh;
+    background: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App__Gallery div{
+    width: 25%;
+    height: 100%;
+    
+}
+
+.App__Gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.c1{
+    background: seagreen;
+}
+
+.c2{
+    background: rgb(114, 142, 21);
+}
+
+.c3{
+    background: rgb(46, 103, 139);
+}
+
+.c4{
+    background: rgb(65, 46, 139);
+}

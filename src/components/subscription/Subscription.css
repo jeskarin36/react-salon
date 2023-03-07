@@ -1,0 +1,251 @@
+.App__subscription{
+    width: 100%;
+    height: 160vh;
+    background: rgb(160, 189, 207);
+}
+
+.App__subscription-container{
+    width: 100%;
+    height:60%;
+    display: flex;
+}
+
+
+.App__subscription-container-letf{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.App__subscription-container-letf div{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+
+
+.App__subscription-container-letf img,
+.App__subscription-container-right img{
+    width: 80%;
+    height: 80%;
+}
+
+.App__subscription-container-letf div p,
+.App__subscription-container-right div p{
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height:18px;
+    font-weight: 400;
+    color: black;
+    
+}
+
+
+.App__subscription-container-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.App__subscription-container-right div{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+
+
+.line{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*Suscribirse*/
+
+
+.App__subscription-subs{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.App__subscription-subs div{
+    
+    width: 33em;
+    text-align: center;
+}
+
+.App__subscription-subs h3{
+    font-size: 76px;
+    line-height: 92px;
+    font-family: var(--font-spe);
+    font-weight: 700;
+    color:  black;
+}
+
+.App__subscription-subs div p{
+    font-weight: 400;
+    font-family: var(--font-mono);
+    font-size: 17px;
+    line-height: 22px;
+    color: black;
+}
+
+.App__subscription-subs > p{
+    font-weight: 400;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 18px;
+    color: black;
+}
+
+.App__subscription-subs form input[type="text"]{
+    padding: 1.2em 3em;
+    font-weight: 400;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.App__subscription-subs form input[type="submit"]{
+    padding: 1.2em 3em;
+    font-weight: 400;
+    font-family: var(--font-mono);
+    font-size: 16px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    margin-left: 1em;
+}
+
+
+@media screen and (max-width:907px){
+    .App__subscription{
+       width: 100%;
+    }
+
+    .App__subscription-container-letf div,
+    .App__subscription-container-right div{
+        width: 90%;
+    
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .App__subscription-container{
+        flex-direction: column;
+       
+        justify-content: center;
+        align-items: center;
+    }
+
+    .App__subscription-container-letf{
+        width: 100%;
+        height: 45%;
+        
+       
+    }
+    .App__subscription-container-right{
+        width: 100%;
+        height: 45%;
+       
+    }
+
+    .App__subscription-container-letf div,
+    .App__subscription-container-right div{
+        width: 90%;
+        height:90%;
+        
+        align-items: center;
+        gap: 1em;
+    }
+
+    .App__subscription-container-letf div img,
+    .App__subscription-container-right div img{
+       
+        object-fit: cover;
+    }
+
+
+
+
+
+
+
+    /*suscri*/
+
+    .App__subscription-subs{
+       gap: .8em;
+       word-wrap: break-all;
+     
+    }
+
+    .App__subscription-subs div{
+     
+        width: 90%;
+        
+    }
+
+    .App__subscription-subs h3{
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    
+
+    .App__subscription-subs> form{
+        display: flex;
+        flex-direction: column;
+        gap: .7em;
+    }
+}
+
+
+@media screen and (max-width:370px){
+    .App__subscription-subs{
+        gap: 1em;
+     }
+}
+
+
+@media screen and (max-width:312px){
+    .App__subscription-subs form input[type="text"],
+    .App__subscription-subs form input[type="submit"]{
+        padding: 1.2em 1em;
+    }
+
+
+}
+@media screen and (max-width:286px){
+    .App__subscription-subs form input[type="text"],
+    .App__subscription-subs form input[type="submit"]{
+        padding: 1.2em .7em;
+    }
+    .App__subscription-subs h3{
+        font-size: 38px;
+        line-height:48px;
+    }
+
+}
+
