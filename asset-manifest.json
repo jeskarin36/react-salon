@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-salon/static/css/main.a9429187.css",
+    "main.js": "/react-salon/static/js/main.d7791761.js",
+    "static/media/photo-1572955304332-bf714bd49add.avif": "/react-salon/static/media/photo-1572955304332-bf714bd49add.16ea452dbca7bcb94c14.avif",
+    "static/media/photo-1548207800-8c16d068bf17.avif": "/react-salon/static/media/photo-1548207800-8c16d068bf17.06f9e41d9e65b1a8b005.avif",
+    "static/media/photo-1595218841793-d38b949402d2.avif": "/react-salon/static/media/photo-1595218841793-d38b949402d2.14129c3a7d5b4234b2cd.avif",
+    "static/media/photo-1580820258381-20c91a156841.avif": "/react-salon/static/media/photo-1580820258381-20c91a156841.588ce3431ca453d40fc1.avif",
+    "static/media/photo-1561382554-68c3e414d5d1.avif": "/react-salon/static/media/photo-1561382554-68c3e414d5d1.af48ce3cecbaaf329f11.avif",
+    "static/media/photo-1585980658562-dc05a72b5820.avif": "/react-salon/static/media/photo-1585980658562-dc05a72b5820.dae36cc6791346e7cb94.avif",
+    "static/media/photo-1595475884562-073c30d45670.avif": "/react-salon/static/media/photo-1595475884562-073c30d45670.1d3df90c6a957ab71688.avif",
+    "static/media/photo-1595476108010-b4d1f102b1b1.avif": "/react-salon/static/media/photo-1595476108010-b4d1f102b1b1.675f09dcacd8a30114d6.avif",
+    "static/media/photo-1554555819-f722cb0c01c5.avif": "/react-salon/static/media/photo-1554555819-f722cb0c01c5.a9ed6fac2b42f23338c5.avif",
+    "static/media/photo-1508002366005-75a695ee2d17.avif": "/react-salon/static/media/photo-1508002366005-75a695ee2d17.691b5b39ab2d7d0dfc60.avif",
+    "index.html": "/react-salon/index.html",
+    "main.a9429187.css.map": "/react-salon/static/css/main.a9429187.css.map",
+    "main.d7791761.js.map": "/react-salon/static/js/main.d7791761.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9429187.css",
+    "static/js/main.d7791761.js"
+  ]
+}
